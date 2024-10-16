@@ -1,0 +1,25 @@
+body {
+  min-height: 200px;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: blanchedalmond;
+}
+
+#projects {
+  background-color: blanchedalmond;
+}
+
+#contact {
+  background-color: blanchedalmond;
+}
+
+/* card pada project */
+/* card-img-top dengan object-fit: cover: Ini akan memastikan bahwa gambar dalam card menyesuaikan secara proporsional ke dalam area gambar, tanpa merusak rasio aspek asli gambar. */
+.card-img-top {
+  /* menentukan tinggi tetap untuk gambar sehingga semua gambar terlihat seragam meskipun ukurannya berbeda. */
+  height: 400px;
+  /* card-img-top dengan object-fit: cover: Ini akan memastikan bahwa gambar dalam card menyesuaikan secara proporsional ke dalam area gambar, tanpa merusak rasio aspek asli gambar. */
+  object-fit: cover;
+}
